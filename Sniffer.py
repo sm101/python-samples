@@ -3,6 +3,9 @@ import  os
 import  socket
 import  ctypes
 from scapy.all import *
+# Derived from https://github.com/zeigotaro/python-sniffer, mostly
+# python2 backport
+
 ###
 # ifreq struct
 
